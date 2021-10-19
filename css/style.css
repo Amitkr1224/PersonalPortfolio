@@ -175,7 +175,8 @@ transition: .3s ease letter-spacing;
 
 /* Pic Section */
 #pic{
-    background-image: url("/img/2nd.jpeg");
+    background-image: url("../img/2nd.jpeg");
+    /* background-image: url("https://thumbs.dreamstime.com/z/imae-white-cluds-blue-sky-clouds-145323142.jpg"); */
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -278,7 +279,7 @@ flex-wrap: wrap;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url("/img/type.png");
+    background-image: url('../img/type.png');
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -293,7 +294,7 @@ flex-wrap: wrap;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .9;
+    opacity: .7;
     z-index: -1;
 }
 #services .service-bottom .icon{
@@ -435,7 +436,7 @@ height: 100%;
  #about .col-left .about-img{
     position: relative;
 }
-/*
+/* 
 #about .col-left .about-img::after{
     content: '';
     position: absolute;
