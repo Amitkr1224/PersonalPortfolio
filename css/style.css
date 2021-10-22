@@ -27,6 +27,9 @@ a{
     letter-spacing: .2rem;
     text-align: center;
 }
+.section-about span{
+    color: crimson;
+}
 .section-title span {
 color: crimson;
 }
