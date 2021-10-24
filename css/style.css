@@ -27,6 +27,10 @@ a{
     letter-spacing: .2rem;
     text-align: center;
 }
+.section-about span{
+    color: crimson;
+    text-transform: uppercase;
+}
 .section-title span {
 color: crimson;
 }
@@ -423,8 +427,8 @@ height: 100%;
 }
  #about .col-right p{
     margin-bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: 200;
+    font-size: 1.4rem;
+    font-weight: 500;
     letter-spacing: .05rem;
 } 
 #about .col-right .cta{
