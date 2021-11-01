@@ -60,6 +60,11 @@ color: crimson;
 .brand h1 span{
     color: crimson;
 }
+#footer .brand h2{
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 300rem;
+}
 /* Header Section */
 #header{
     position: fixed;
@@ -257,6 +262,7 @@ transition: .3s ease letter-spacing;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+    background-color: blanchedalmond;
 }
 
 #services .service-top p{
@@ -334,9 +340,10 @@ flex-wrap: wrap;
 /* Project Section */
 #projects .projects{
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+    background-color: blanchedalmond;
 }
 #projects .projects-header h1{
     margin-bottom: 50px;
@@ -404,9 +411,10 @@ flex-wrap: wrap;
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 100px 0px;
+    background-color: blanchedalmond;
 }
  #about .col-left {
 width: 100%;
@@ -462,8 +470,9 @@ height: 100%;
 /* Contact Section */
 #contact .contact{
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
+    background-color: blanchedalmond;
 }
 #contact .contact-items{
     width: 400px;
@@ -498,7 +507,7 @@ height: 100%;
     font-weight: 500;
 }
 #contact .contact-item:hover{
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 0px 0px 5px 0 rosybrown;
 }
 /* End Contact Section */
 
@@ -508,9 +517,9 @@ height: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer{
-    min-height: 200px;
+    min-height: 150px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 #footer h2{
@@ -524,7 +533,7 @@ height: 100%;
 }
 #footer .social-icon{
     display: flex;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 #footer .social-item{
     /* height: 90px;
@@ -532,7 +541,8 @@ height: 100%;
     margin: 0 10px;
 }
 #footer .social-item:hover{
-    border: 2px solid white;
+    background-color: antiquewhite;
+    /* border: 2px solid white; */
     border-radius: .5rem;
 }
 /* #footer .social-item img{
